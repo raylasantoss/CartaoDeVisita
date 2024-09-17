@@ -1,0 +1,51 @@
+header {
+    background-color: #ffbff4;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border-radius: 10%;
+    width: 50vh;
+
+}
+  footer {
+    background: linear-gradient(pink, rgb(133, 0, 133));
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border-radius: 10%;
+    width: 50vh;
+  }
+  nav {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    border-radius: 10%;
+    width: 50vh;
+}
+
+
+  img{
+    border-radius: 3000px;
+  }
+ 
+  body {
+    margin: 0;
+    height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #000000;
+}
+.conteiner {
+    width: 90%; /* Largura do contêiner, ajustável conforme necessário */
+    max-width: 800px; /* Limite máximo da largura */
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    border-radius: 100px;
+    text-align: center;
+}
